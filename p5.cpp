@@ -3,7 +3,6 @@ public:
 
 	int maxSubArray(vector<int>& nums) {
 		vector<int>dp;
-		int ans;
 		dp.push_back(nums[0]);
 
 
